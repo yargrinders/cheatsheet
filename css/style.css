@@ -53,10 +53,17 @@ a{
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
+    border: 1px solid #666666;
+    padding: 4px;
 }
 .nav-tab.active{
     color: #ff6969;
+    border: 1px solid #ff6969;
     cursor: default;               
+}
+.nav-tab:hover {
+    color: #ff6969;
+    border: 1px solid #ff6969;
 }
 .tab-content{
     background: aliceblue;
