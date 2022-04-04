@@ -17,16 +17,61 @@ li {
 img {
     vertical-align: top;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: inherit;
-    font-size: inherit;
-}
 .wrapper {
     background-color: darkgrey;
     height: 100%;
+}
+header {
+    height: 75px;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header li {
+    cursor: pointer;
+    margin: 0 10px;
+}
+header li a:hover {
+    color: blueviolet;
+}
+/* TABS */
+a{
+    color: #666666;
+}
+.nav-tabs{
+    display: flex;
+}
+.nav-tab{
+    margin-right: 10px;
+    border-bottom: 0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-tab.active{
+    color: blueviolet;
+    cursor: default;               
+}
+.tab-content{
+    background: aliceblue;
+}
+.tab-pane{
+    display: none;
+    padding: 5px;
+}
+.tab-pane.active{
+    display: flex;
+}
+/* CONTENT */
+.first_span {
+    color: #000000;
+}
+.second_span {
+    color: #ff6969;
 }
