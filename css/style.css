@@ -38,7 +38,7 @@ header li {
     margin: 0 10px;
 }
 header li a:hover {
-    color: blueviolet;
+    color: #ff6969;
 }
 /* TABS */
 a{
@@ -55,7 +55,7 @@ a{
     font-weight: 700;
 }
 .nav-tab.active{
-    color: blueviolet;
+    color: #ff6969;
     cursor: default;               
 }
 .tab-content{
