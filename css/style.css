@@ -83,3 +83,14 @@ a{
     color: #ff6969;
 }
 /* END CONTENT */
+/* FOOTER */
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+}
+footer span {
+    color: aliceblue;
+}
