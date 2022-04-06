@@ -67,10 +67,17 @@ a{
 }
 .tab-content{
     background: aliceblue;
+    
+}
+.border_content {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 .tab-pane{
     display: none;
     padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #ff6969;
 }
 .tab-pane.active{
     display: flex;
