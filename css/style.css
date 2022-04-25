@@ -17,9 +17,12 @@ li {
 img {
     vertical-align: top;
 }
+/* 
 .wrapper {
     background-color: darkgrey;
+    height: 100%;
 }
+*/
 header {
     height: 75px;
     background-color: rgb(43, 43, 43);
