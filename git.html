@@ -33,10 +33,10 @@
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">#index</a>
             <a href="git.html">#Git cheatsheet</a>
-            <a href="laravel.html">#Laravel cheatsheet</a>
             <a href="webpack.html">#Webpack</a>
             <a href="gulp.html">#Gulp</a>
             <a href="gulp4.html">#Gulp4</a>
+            <a href="laravel.html">#Laravel cheatsheet</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -59,6 +59,7 @@
                         <a href="#" data-tab="2" class="nav-tab">#Git Branch</a>
                         <a href="#" data-tab="3" class="nav-tab">#Git checkout</a>
                         <a href="#" data-tab="4" class="nav-tab">#Git marge</a>
+                        <a href="#" data-tab="5" class="nav-tab">#Git ALLBranch</a>
                     </div>
                     <div class="tab-content">
                         <div data-tab-content="1" class="tab-pane active">
@@ -89,7 +90,23 @@
                                 <li><br></li>
                             </ul>
                         </div>
+                        <div data-tab-content="5" class="tab-pane">
+                            <ul>
+                                <li><span class="first_span">-- "git clone <адрес_репозитория>"</span> <span class="second_span">- Clone Репозитория</span></li>
+                                <li><span class="first_span">-- "git branch -a"</span> <span class="second_span">- Список всех удаленных веток</span></li>
+                                <li><span class="first_span">-- "git checkout origin/<название_удаленной ветки>"</span> <span class="second_span">- Скакнуть на удаленную ветку</span></li>
+                                <li><span class="first_span">-- "git checkout <название_удаленной_ветки>"</span> <span class="second_span">- Работа с удаленной веткой</span></li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <h3>Клонировать все удаленные ветки</h3>
+                    <p>Сначала нужно склонировать репозиторий командой <span class="second_span">git clone <адрес_репозитория></span>. Дальше следует посмотреть, какие локальные ветки сейчас есть в клонированном репозитории. Для этого следует воспользоваться командой <span class="second_span">git branch</span>. Чтобы увидеть вообще все ветки, в т.ч. и удаленные, следует воспользоваться командой <span class="second_span">git branch -a</span>. Если нужно скакнуть на удаленную ветку следует выполнить команду <span class="second_span">git checkout origin/<название_удаленной ветки></span>. Если нужно работать на ней, то следует выполнить команду <span class="second_span">git checkout <название_удаленной_ветки></span></p>
                 </div>
                 <div class="col-1"></div>
             </div>
